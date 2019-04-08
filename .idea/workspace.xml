@@ -2,8 +2,119 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="576d8d99-22d4-46ef-9d1a-6f21eb8e6453" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/LAS_Processor.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/confusion_matrix.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tools.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/unet.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/000029.las" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_12.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_13.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_16.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_17.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_20.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_21.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_24.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_25.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_28.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_29.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_30.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_32.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_33.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_34.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_37.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_38.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_41.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_42.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_45.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_46.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_49.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_50.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_53.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_54.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_57.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_58.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_61.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_62.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_65.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_66.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_69.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_70.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_73.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_74.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_77.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_78.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_8.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_81.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_82.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_83.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_86.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_87.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_90.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_91.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_94.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_95.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_98.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/image_0_99.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_12.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_13.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_16.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_17.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_20.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_21.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_24.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_25.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_28.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_29.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_30.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_32.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_33.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_34.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_37.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_38.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_41.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_42.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_45.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_46.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_49.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_50.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_53.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_54.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_57.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_58.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_61.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_62.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_65.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_66.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_69.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_70.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_73.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_74.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_77.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_78.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_8.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_81.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_82.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_83.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_86.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_87.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_90.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_91.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_94.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_95.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_98.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/mask_0_99.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/LAS_Processor.py" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,7 +124,72 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="unet.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-481">
+              <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tools.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tools.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="validation.py" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/lib/python3.7/site-packages/sklearn/utils/validation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="234" column="0" lean-forward="false" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="classification.py" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/lib/python3.7/site-packages/sklearn/metrics/classification.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="252" column="0" lean-forward="false" selection-start-line="252" selection-start-column="0" selection-end-line="252" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="codecs.py" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/Cellar/python/3.7.0/Frameworks/Python.framework/Versions/3.7/lib/python3.7/codecs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="309" column="0" lean-forward="false" selection-start-line="309" selection-start-column="0" selection-end-line="309" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -22,6 +198,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>img0</find>
+      <find>classes</find>
+      <find>uint</find>
+      <find>read_ima</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -29,7 +213,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/unet_train.py" />
+        <option value="$PROJECT_DIR$/JSONUtils.py" />
+        <option value="$PROJECT_DIR$/Tools.py" />
+        <option value="$PROJECT_DIR$/UNETPredictor.py" />
+        <option value="$PROJECT_DIR$/confusion_matrix.py" />
         <option value="$PROJECT_DIR$/LAS_Processor.py" />
+        <option value="$PROJECT_DIR$/tools.py" />
+        <option value="$PROJECT_DIR$/unet.py" />
+        <option value="$PROJECT_DIR$/test.py" />
       </list>
     </option>
   </component>
@@ -54,7 +245,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -65,16 +255,29 @@
             <path>
               <item name="las_image_segmentation" type="b2602c69:ProjectViewProjectNode" />
               <item name="las_image_segmentation" type="462c0819:PsiDirectoryNode" />
-              <item name="upperView" type="462c0819:PsiDirectoryNode" />
+              <item name="Images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="las_image_segmentation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="las_image_segmentation" type="462c0819:PsiDirectoryNode" />
+              <item name="Images" type="462c0819:PsiDirectoryNode" />
+              <item name="000029.las" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Images/000029.las" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -88,7 +291,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.LAS_Processor">
+  <component name="RunManager" selected="Python.UNETPredictor">
     <configuration name="LAS_Processor" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -101,7 +304,25 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="las_image_segmentation" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LAS_Processor.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="UNETPredictor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="las_image_segmentation" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unet.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,14 +346,16 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.unet_train" />
       <item index="1" class="java.lang.String" itemvalue="Python.LAS_Processor" />
+      <item index="2" class="java.lang.String" itemvalue="Python.UNETPredictor" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.LAS_Processor" />
-        <item index="1" class="java.lang.String" itemvalue="Python.unet_train" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.UNETPredictor" />
+        <item index="1" class="java.lang.String" itemvalue="Python.LAS_Processor" />
+        <item index="2" class="java.lang.String" itemvalue="Python.unet_train" />
       </list>
     </recent_temporary>
   </component>
@@ -155,22 +378,22 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279503" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2795031" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46583852" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -195,26 +418,24 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/LAS_Processor.py</url>
-          <line>95</line>
-          <option name="timeStamp" value="13" />
+          <url>file://$PROJECT_DIR$/tools.py</url>
+          <line>123</line>
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/LAS_Processor.py</url>
-          <line>98</line>
-          <option name="timeStamp" value="14" />
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/LAS_Processor.py</url>
-          <line>130</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/LAS_Processor.py</url>
-          <line>74</line>
-          <option name="timeStamp" value="16" />
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="58" />
         </line-breakpoint>
       </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -222,263 +443,264 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="17" />
+      <option name="time" value="64" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>img.shape[0]</expression-string>
+        <expression-string>hits.shape[1]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>for i in range(0, res[0], img.shape[0]): print(i)</expression-string>
+        <expression-string>hits.shape[0]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>np.max(pixel, axis=0)</expression-string>
+        <expression-string>len(hits)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>np.max(pixel)</expression-string>
+        <expression-string>np.len(hits)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>img</expression-string>
+        <expression-string>np.count_nonzero(hits)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>print(img)</expression-string>
+        <expression-string>(np.sum(hits == True).astype(float) / float(y_true.shape[0]))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(np.sum(hits == True).astype(float) / y_true.shape[0])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(np.sum(hits == True)[0] / y_true.shape[0])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(np.sum(hits == True) / y_true.shape[0])</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/unet_train.py">
+    <entry file="file://$PROJECT_DIR$/Images/image_0_5.png" />
+    <entry file="file://$PROJECT_DIR$/Images/image_0_17.png" />
+    <entry file="file://$PROJECT_DIR$/Images/image_0_34.png" />
+    <entry file="file://$PROJECT_DIR$/Images/image_0_46.png" />
+    <entry file="file://$PROJECT_DIR$/Images/image_0_53.png" />
+    <entry file="file://$PROJECT_DIR$/Images/image_0_66.png" />
+    <entry file="file://$PROJECT_DIR$/Images/image_0_13.png" />
+    <entry file="file://$PROJECT_DIR$/Images/image_0_29.png" />
+    <entry file="file://$PROJECT_DIR$/Images/image_0_0.png" />
+    <entry file="file://$PROJECT_DIR$/Images/000029.las/images_index.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-468">
+          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/000029.las/masks/8.png" />
+    <entry file="file://$PROJECT_DIR$/Images/000029.las/masks/17.png" />
+    <entry file="file://$PROJECT_DIR$/Images/000029.las/masks/53.png" />
+    <entry file="file://$PROJECT_DIR$/Images/000029.las/masks/78.png" />
+    <entry file="file://$PROJECT_DIR$/Images/000029.las/masks/86.png" />
+    <entry file="file://$PROJECT_DIR$/Images/000029.las/masks/83.png" />
+    <entry file="file://$PROJECT_DIR$/Images/000029.las/predictions/15.png" />
+    <entry file="file://$PROJECT_DIR$/Images/000029.las/predictions/17.png" />
+    <entry file="file://$PROJECT_DIR$/Images/000029.las/predictions/10.png" />
+    <entry file="file://$PROJECT_DIR$/Images/000029.las/predictions/6.png" />
+    <entry file="file://$PROJECT_DIR$/Images/000029.las/predictions/3.png" />
+    <entry file="file://$PROJECT_DIR$/Images/000029.las/predictions/2.png" />
+    <entry file="file://$PROJECT_DIR$/Images/000029.las/predictions/1.png" />
+    <entry file="file://$PROJECT_DIR$/Images/000029.las/predictions/0.png" />
+    <entry file="file://$PROJECT_DIR$/Images/000029.las/predictions/12.png" />
+    <entry file="file://$PROJECT_DIR$/Images/000029.las/masks/000029.las_mask_13.png.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSONUtils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/matplotlib/image.py">
+    <entry file="file://$PROJECT_DIR$/Images/000029.las/masks/000029.las_mask_4.png.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/000029.las/masks/000029.las_mask_0.png.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/000029.las/predictions/000029.las_0.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/000029.las/predictions/000029.las_1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/000029.las/predictions/000029.las_4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/000029.las/predictions/000029.las_8.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/000029.las/predicted.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/tensorflow/python/client/session.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11837">
-          <caret line="653" column="0" lean-forward="false" selection-start-line="653" selection-start-column="0" selection-end-line="653" selection-end-column="0" />
+        <state relative-caret-position="167">
+          <caret line="1439" column="0" lean-forward="false" selection-start-line="1439" selection-start-column="0" selection-end-line="1439" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/keras/engine/training_utils.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2223">
-          <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py">
+    <entry file="file:///usr/local/lib/python3.7/site-packages/skimage/io/_io.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/000029.las/predicted_2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/000029.las/images/000029.las_1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/000029.las/images/000029.las_8.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/000029.las/images/000029.las_17.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/000029.las/images/000029.las_0.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/000029.las/images/000029.las_16.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/confusion_matrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="58" column="30" lean-forward="false" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="30" />
+          <folding>
+            <element signature="e#16#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/sklearn/metrics/classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="252" column="0" lean-forward="false" selection-start-line="252" selection-start-column="0" selection-end-line="252" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/sklearn/utils/validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="234" column="0" lean-forward="false" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/skimage/util/apply_parallel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python/3.7.0/Frameworks/Python.framework/Versions/3.7/lib/python3.7/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="309" column="0" lean-forward="false" selection-start-line="309" selection-start-column="0" selection-end-line="309" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-481">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unet_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/matplotlib/image.py">
+    <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12407">
-          <caret line="653" column="0" lean-forward="false" selection-start-line="653" selection-start-column="0" selection-end-line="653" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/keras/engine/training_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2223">
-          <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/keras/engine/training_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2223">
-          <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/matplotlib/image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11837">
-          <caret line="653" column="0" lean-forward="false" selection-start-line="653" selection-start-column="0" selection-end-line="653" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/createSliceImages.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unet_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="112" column="23" lean-forward="false" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="23" />
+        <state relative-caret-position="266">
+          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Images/mask_0_0.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LAS_Processor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Images/image_0_20.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Images/image_0_25.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Images/mask_0_78.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Images/mask_0_82.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Images/mask_0_94.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Images/mask_0_86.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Images/mask_0_37.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Images/image_0_73.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Images/image_0_65.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Images/image_0_16.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Images/image_0_8.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Images/image_0_0.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Images/image_0_5.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Images/image_0_17.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Images/image_0_29.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Images/image_0_34.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Images/image_0_46.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Images/image_0_53.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Images/image_0_66.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
   </component>
