@@ -6,7 +6,7 @@ import os
 import imageio
 
 import JSONUtils
-from unet import readImagesFromFolder, unet
+from unet import unet
 import skimage.io as io
 
 from matplotlib import pyplot as plt
@@ -74,11 +74,12 @@ def predict_tiles(index, path='Images/000029.las'):
 def read_las(file):
     print("Reading file %s" % file)
     in_file = File(file, mode='r')
-    xyzc = np.transpose(np.array([in_file.x,
+    xyzic = np.transpose(np.array([in_file.x,
                                   in_file.y,
                                   in_file.z,
+                                  in_file.intensity,
                                   in_file.Classification.astype(float)]))
-    return xyzc
+    return xyzic
 
 def get_zenith_tiles(xyzc, pixel_size, res, mask_class=16):
 
