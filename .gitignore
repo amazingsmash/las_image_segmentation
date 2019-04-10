@@ -1,3 +1,5 @@
 *.png
 *.mat
 *.hdf5
+*.las
+

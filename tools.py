@@ -47,7 +47,15 @@ def calculate_probability(xyz, prob_image, pixel_size):
     xyz[:, 2] -= xyz_offset[2]
 
     pixel = np.floor(xyz[:, 0:2] / pixel_size).astype(int)
-    print("Getting probabilities from image: %d x %d" % (max(pixel[:,0]),max(pixel[:,1])))
+
+
+    #Expanding trailing area
+    e_0 = max(max(pixel[:, 0]) - prob_image.shape[0]+1, 0)
+    e_1 = max(max(pixel[:, 1]) - prob_image.shape[1]+1, 0)
+    prob_image = np.pad(prob_image, ((0, e_0), (0, e_1)), 'constant', constant_values=(0, 0))
+
+    print("Getting probabilities from image: %d x %d in image %d x %d" % (max(pixel[:,0]),max(pixel[:,1]), prob_image.shape[0], prob_image.shape[1]))
+
     prob = prob_image[pixel[:,0], pixel[:,1]]
     return prob
 
@@ -121,11 +129,13 @@ def tile_image(img, res):
 
     return tiles, tile_coord
 
+
+
 def save_tiles_folder(xyzc, file, out_path=""):
 
     out_folder = out_path
-    shutil.rmtree(out_folder, ignore_errors=True)
-    os.mkdir(out_folder)
+    #shutil.rmtree(out_folder, ignore_errors=True)
+    #os.mkdir(out_folder)
 
     res = (256, 256)
     img_tiles, mask_tiles, tile_coord = get_zenith_tiles(xyzc, pixel_size=0.2, res=res)
@@ -141,7 +151,66 @@ def save_tiles_folder(xyzc, file, out_path=""):
             mask_name = "%s_mask_%d.png" % (file, i)
             filename = "%s/images/%s" % (path, image_name)
             imageio.imwrite(filename, img)
-            filename = "%s/masks/%s.png" % (path, mask_name)
+            filename = "%s/masks/%s" % (path, mask_name)
+            imageio.imwrite(filename, mask_tiles[i])
+            tile_coord[i]["imageName"] = image_name
+            tile_coord[i]["number"] = i
+
+    tile_coord = [t for t in tile_coord if "imageName" in t]
+    JSONUtils.writeJSON(tile_coord, "%s/images_index.json" % path)
+
+    return tile_coord
+
+def get_zenith_feature_tiles(xyzic, pixel_size, res=(256, 256), mask_class=16):
+
+    xyz_offset = np.min(xyzic[:, 0:3], axis=0)
+    xyzic[:, 0] -= xyz_offset[0]
+    xyzic[:, 1] -= xyz_offset[1]
+    xyzic[:, 2] -= xyz_offset[2]
+
+    pixel = np.floor(xyzic[:,0:2] / pixel_size).astype(int)
+    image_size = np.max(pixel, axis=0) + 1
+    n_features = 3
+    image = np.zeros((image_size[0], image_size[1], n_features))
+    mask = np.zeros(image_size)
+    for i in range(xyzic.shape[0]):
+        px = (pixel[i,0], pixel[i,1])
+
+        image[px,:] = [max([xyzic[i,2], image[px[0], px[1], 0]]),
+                       min([xyzic[i,2], image[px[0], px[1], 1]]),
+                       max([xyzic[i, 3], image[px[0], px[1], 2]])]
+
+        mask[px] = mask[px] or xyzic[i,4] == mask_class
+
+    # plt.imshow(mask, interpolation='nearest')
+    # plt.show()
+    img_tiles, tile_coord = tile_image(image, res)
+    mask_tiles, tile_coord = tile_image(mask, res)
+    return img_tiles, mask_tiles, tile_coord
+
+def save_segmentation_folder(xyzc, file, mask_class = 16,res = (256, 256), out_path=""):
+
+    out_folder = out_path
+    #shutil.rmtree(out_folder, ignore_errors=True)
+    #os.mkdir(out_folder)
+
+    img_tiles, mask_tiles, tile_coord = get_zenith_tiles(xyzc,
+                                                         pixel_size=0.2,
+                                                         res=res,
+                                                         mask_class=mask_class)
+
+    path = "%s/%s" % (out_folder, file)
+    JSONUtils.makeDirectory(path + "/images/")
+    JSONUtils.makeDirectory(path + "/masks_class_%d/" % mask_class)
+    min_pixels = (res[0] * res[1]) * 0.01
+    for i in range(len(img_tiles)):
+        img = img_tiles[i]
+        if np.sum(img != 0) > min_pixels:
+            image_name = "%s_%d.png" % (file, i)
+            mask_name = "%s_mask_%d.png" % (file, i)
+            filename = "%s/images/%s" % (path, image_name)
+            imageio.imwrite(filename, img)
+            filename = "%s/masks/%s" % (path, mask_name)
             imageio.imwrite(filename, mask_tiles[i])
             tile_coord[i]["imageName"] = image_name
             tile_coord[i]["number"] = i
