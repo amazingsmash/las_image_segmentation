@@ -188,6 +188,7 @@ def get_zenith_feature_tiles(xyzic, pixel_size, res=(256, 256), mask_class=16):
     mask_tiles, tile_coord = tile_image(mask, res)
     return img_tiles, mask_tiles, tile_coord
 
+
 def save_segmentation_folder(xyzc, file, mask_class = 16,res = (256, 256), out_path=""):
 
     out_folder = out_path
